@@ -1,5 +1,10 @@
 const button = document.querySelector("button")
 
-button.addEventListener('click', () => {
-    alert("Você clicou em mim!")
-})
+function adicionaAnimacao() {
+    button.addEventListener('click', () => {
+        alert("Você clicou em mim!")
+    })
+}
+
+
+adicionaAnimacao()
