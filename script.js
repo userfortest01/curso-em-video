@@ -2,7 +2,6 @@ const button = document.querySelector("button")
 let contador = 0
 let cor = "blue"
 
-
 function verificaCor() {
     if (cor === "blue") {
         button.style.backgroundColor = "blue"
@@ -27,6 +26,7 @@ function adicionaAnimacao() {
             ++contador
             console.log(`Você clicou ${contador} vezes.`)
         }
+
     })
 }
 
